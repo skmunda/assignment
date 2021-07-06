@@ -1,0 +1,133 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    
+}
+.navigation-bar{
+    margin: 0px;
+    display: flex;
+    
+}
+.nav{
+    width: 50%;
+    text-align: right;
+    
+}
+.equal-length{
+    width: 50%;
+}
+.message{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.image img{
+    width: 500px;
+}
+.profile{
+    display: flex;
+    background-image: url(images/female/background.png);
+    background-repeat: no-repeat
+    }
+.profile-image{
+    width: 50%;
+}
+.nav a {
+    text-decoration: none;
+    padding:5px;
+
+}
+.message a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(63, 92, 172) , rgb(0, 255, 128));
+    padding:7px;
+    color:white;
+    border-radius: 11px
+
+}
+.about-me a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(63, 92, 172) , rgb(0, 255, 128));
+    padding:7px;
+    color:white;
+    border-radius: 11px
+
+}
+
+
+.about-me{
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.same-width img {
+    width:250px;
+    height:250px;
+    border-radius: 35px;
+    box-shadow: rgb(179, 176, 171);
+}
+h4 {
+    font-weight: normal;
+    color:white;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    
+}
+li a{
+    text-decoration: none;
+}
+
+.menu-list{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+special-menu-list{
+    margin-left: 20px;
+}
+.menu-list img {
+    height: 200px;
+    width: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(168, 168, 236, 0.2);
+    border-radius: 45px;
+
+}
+.special-item{
+    width:33.3%;
+}
+ 
+
+.subscription{
+    display: flex;
+    background-color: rgb(189, 189, 181);
+    padding: 20px;
+    margin-top: 70px;
+    border-radius:25px
+
+}
+.footer{
+    background-color: rgb(62, 63, 62);
+    height: 250px
+}
+.footer-text{
+    width:33.3%;
+    text-align: center;
+}
+.footer h1{
+    text-align: center;
+}
+.centr-text{
+    text-align: center;
+    color:thistle
+}
+.footer img{
+    width:50px;
+    height: 50px;
+}
